@@ -1,0 +1,50 @@
+.select-container {
+  position: relative;
+  width: 100%;
+}
+.select-container::before{
+    content: "phrase";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: skyblue;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 800;
+  color: black;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+  padding-right: 40px; /* Espace pour la flèche */
+}
+
+.select:focus {
+  border-color: whitesmoke;
+  box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+.select:active{
+    border-color: whitesmoke;
+    box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
+}
+
+.select-container::after {
+  content: '\25BC'; /* Flèche vers le bas */
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none; /* Empêche l'interaction avec la flèche */
+  color: whitesmoke;
+  font-size: 16px;
+}

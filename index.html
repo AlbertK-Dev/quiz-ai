@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Quiz AI</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <script type="module" src="scripts/index.js" defer></script>
+</head>
+
+<body id="indexPage">
+    <div class="main">
+        <div id="loginContainer" class="login__container">
+            <div class="login__welcome">
+                <h1>Bienvenu sur <span class="app__name">
+                        quiz-ai
+                    </span> </h1>
+                <h3>Préparez-vous à relever des défis quiz excitants tout en vous amusant ! 🎈🕹️
+                </h3>
+
+            </div>
+            <form id="loginForm" class="login__form">
+                <div class="login__section flex f-between f-col">
+                     <div class="login__field text__field">
+                        <label for="pseudo"> Votre Pseudo </label>
+                        <input required minlength="5" placeholder="ex: Albert-K" name="pseudo" id="pseudo" type="text">
+
+                    </div>
+                    <div class="login__field ">
+                        <input  type="checkbox" name="preserveSession" id="preserveSession">
+
+                        <label for="preserveSession" class="label__">
+                            conserver vos informations sur cette ordinateur
+                        </label>
+
+                    </div>
+                </div>
+                   
+
+                    <div class="login__submit flex f-center ">
+                        <input class="btn" type="submit" value="Entrer">
+                    </div>
+
+
+            </form>
+
+        </div>
+        <div class="carroussel">
+            ici le carroussel
+        </div>
+    </div>
+
+
+</body>
+
+</html>

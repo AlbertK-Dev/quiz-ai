@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../styles/index.css">
+	<script type="module" src="../scripts/index.js" defer></script>
+	<title>Quiz AI</title>
+</head>
+
+<body id="quizPage">
+	<div class="main">
+
+		<div  id="quizContainer" class="quiz__container">
+			<div class="quiz__welcome">
+				Salut, <span id="quizUserName" class="pseudo">
+				</span>
+
+			</div>
+			<div id="paramContainer" class="param__container">
+				<div class="section quiz__level ">
+					<p class="label "> Choisir un niveau </p>
+					<div id="quizLevelSelect" textValue="1" class="field menu__field">
+						<span id="levelTextMenu">
+							<!-- niveau par defaut -->
+						</span>
+						<div id="levelMenu" class="menu absolute-menu flex f-col f-between">
+							<!-- les menu__items ici -->
+						</div>
+					</div>
+
+					
+				</div>
+				
+				<div class="section quiz_subject ">
+					<p class="label"> Saisir le sujet de votre choix </p>
+					<div id="subjectSelection" class="field menu__field">
+						<span id="subjectTextMenu">
+							<!-- sujet par defaut -->
+						</span>
+						<div id="subjectMenu" class="menu absolute-menu flex f-col f-between">
+							<!-- les menu__items ici  -->
+						</div>
+					</div>
+			
+				</div>
+
+				<div id="loadingQuiz" class="loading__quiz__container" >
+					<p data-text="Chargement..." class="loading__text">Chargement...</p>
+				</div>
+
+				<div class="start__quiz__section">
+					<button class="btn" id="startQuizButton" type="button">Lancer le Quiz</button>
+				</div>
+			</div>
+				
+			
+			<div id="questionContainer" class="question__container">
+				<h2 id="question" class="question"></h2>
+				<ul id="options" class="options"></ul>
+			</div>
+			<div id="quizNavigation" class="quiz__navigation">
+				<button  type="button" class="btn" id="prevBtn"> Précédent </button>
+				<button type="button" class="btn" id="nextBtn"> Suivant </button>
+			</div>
+			<div id="quizScore" class="quiz__score">
+				<span id="totalResponses" >0</span>
+				/ 
+				<span id="totalAnswer">0</span>
+			</div>
+			<div id="quizStat" class="quiz__stat">
+				<button  type="button" class="btn" id="restartBtn"> &#128260 </button>
+				<p>
+					&#11088;<span id="correctAnswer">0</span>
+				</p>
+				<p>
+					&#10060;<span id="badAnswer">0</span>
+				</p>
+				<button type="button" class="btn" id="stopBtn"> &#128683; </button>
+			</div>
+		</div>
+
+		<div class="other">
+			
+				<p class="alert">
+					Attention : Les quiz sur ce site sont actuellement en phase de test. Les questions ne sont pas encore générées automatiquement par l'IA. Cette fonctionnalité sera disponible prochainement. Merci de votre compréhension.
+				</p>
+			
+            <button type="button" id="disconnectBtn" class="btn">Se déconnecter</button>
+        </div>
+
+	</div>
+</body>
+
+</html>

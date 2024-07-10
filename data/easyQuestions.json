@@ -1,0 +1,103 @@
+[
+    {
+      "question": "Qu'est-ce qu'un élément HTML?",
+      "options": ["Une balise de mise en forme", "Un lien hypertexte", "Une instruction de style", "Un bloc de contenu"],
+      "answer": 3
+    },
+    {
+      "question": "Que signifie CSS?",
+      "options": ["Cascading Style Sheets", "Cascading Script Sheets", "Creative Style Sheets", "Colorful Style Sheets"],
+      "answer": 0
+    },
+    {
+      "question": "Quel langage est principalement utilisé pour ajouter des comportements interactifs à une page web?",
+      "options": ["HTML", "CSS", "JavaScript", "Python"],
+      "answer": 2
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour insérer une image?",
+      "options": ["<img>", "<picture>", "<image>", "<src>"],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer un lien hypertexte en HTML?",
+      "options": ["<a href='url'>Link</a>", "<link href='url'>Link</link>", "<hyperlink href='url'>Link</hyperlink>", "<url href='url'>Link</url>"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour changer la couleur de fond d'un élément?",
+      "options": ["color", "background-color", "font-color", "bg-color"],
+      "answer": 1
+    },
+    {
+      "question": "Quel attribut HTML est utilisé pour définir une classe CSS?",
+      "options": ["id", "class", "style", "css"],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le rôle de la balise <head> en HTML?",
+      "options": ["Contient le contenu principal", "Contient des informations méta", "Affiche le titre de la page", "Affiche les liens"],
+      "answer": 1
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour inclure un fichier CSS dans un document HTML?",
+      "options": ["<link rel='stylesheet' href='style.css'>", "<style src='style.css'>", "<css link='style.css'>", "<stylesheet src='style.css'>"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour changer la police de caractère d'un élément?",
+      "options": ["font-style", "font-family", "font-weight", "font-text"],
+      "answer": 1
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour déclarer une variable en JavaScript?",
+      "options": ["var myVariable;", "variable myVariable;", "myVariable = var;", "declare myVariable;"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la balise <title> en HTML?",
+      "options": ["Définit le titre de la page", "Définit le contenu principal", "Affiche le titre dans le corps", "Affiche un lien"],
+      "answer": 0
+    },
+    {
+      "question": "Comment créer une liste à puces en HTML?",
+      "options": ["<ul><li>Item</li></ul>", "<ol><li>Item</li></ol>", "<list><item>Item</item></list>", "<ul><item>Item</item></ul>"],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut HTML est utilisé pour définir un identifiant unique pour un élément?",
+      "options": ["class", "id", "name", "style"],
+      "answer": 1
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour définir un paragraphe?",
+      "options": ["<par>", "<pg>", "<p>", "<paragraph>"],
+      "answer": 2
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour lier un fichier JavaScript dans un document HTML?",
+      "options": ["<script src='script.js'></script>", "<js src='script.js'></js>", "<link src='script.js'></link>", "<javascript src='script.js'></javascript>"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour changer la couleur du texte d'un élément?",
+      "options": ["text-color", "font-color", "color", "foreground-color"],
+      "answer": 2
+    },
+    {
+      "question": "Quel élément HTML est utilisé pour créer une liste ordonnée?",
+      "options": ["<ul>", "<ol>", "<list>", "<ord>"],
+      "answer": 1
+    },
+    {
+      "question": "Quel attribut HTML est utilisé pour fournir un texte alternatif pour une image?",
+      "options": ["title", "alt", "src", "caption"],
+      "answer": 1
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour insérer un lien hypertexte?",
+      "options": ["<link>", "<href>", "<a>", "<url>"],
+      "answer": 2
+    }
+  ]
+  

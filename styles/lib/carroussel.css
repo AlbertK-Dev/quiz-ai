@@ -1,0 +1,11 @@
+.carroussel{
+   flex: 1;
+  visibility: hidden;
+   /* display: none; */
+}
+
+@media screen and (max-width: 700px) {
+    .carroussel{
+        display: none;
+    }
+}

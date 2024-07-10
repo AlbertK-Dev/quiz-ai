@@ -1,0 +1,71 @@
+
+@charset 'utf-8'; 
+@import url("lib/utils.css");
+@import url("lib/login.css");
+@import url("lib/quiz.css");
+@import url("lib/carroussel.css");
+@import url("lib/__select__.css");
+@import url("lib/question.css");
+@import url("lib/text_loading.css");
+@import url("lib/other.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background: url("../images/ia_background.jpg") no-repeat fixed ;
+    background-size: cover;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight:600;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.main{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    gap: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+
+}
+
+input[type="text"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+  }
+
+
+  @media screen and (max-width:700px) {
+    body{
+        padding: auto;
+        height: auto;
+        width: auto;
+    }
+}

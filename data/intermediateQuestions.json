@@ -1,0 +1,103 @@
+[
+    {
+      "question": "Quelle propriété CSS est utilisée pour ajouter une bordure à un élément?",
+      "options": ["border", "outline", "border-color", "border-style"],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut HTML5 est utilisé pour définir une zone de texte multi-lignes?",
+      "options": ["<input type='text'>", "<textarea>", "<input type='textarea'>", "<text>"],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le rôle de la méthode `addEventListener()` en JavaScript?",
+      "options": ["Attacher un gestionnaire d'événement à un élément", "Ajouter un élément à la page", "Supprimer un élément d'une liste", "Changer le style d'un élément"],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une fonction en JavaScript?",
+      "options": ["function myFunction() {}", "func myFunction() {}", "declare function myFunction() {}", "function: myFunction() {}"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la différence entre `let` et `const` en JavaScript?",
+      "options": ["`let` permet de modifier la variable, `const` non", "`let` ne permet pas de modifier la variable, `const` permet", "`let` et `const` sont identiques", "`let` est pour les objets, `const` pour les primitives"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle méthode est utilisée pour ajouter un élément à un tableau en JavaScript?",
+      "options": ["push()", "add()", "insert()", "append()"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour créer une fonction fléchée en JavaScript?",
+      "options": ["(param) => { return value; }", "function(param) => { return value; }", "param => { return value; }", "function => (param) { return value; }"],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut HTML est utilisé pour ajouter un identifiant unique à un élément?",
+      "options": ["class", "id", "name", "data"],
+      "answer": 1
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour définir la largeur d'un élément?",
+      "options": ["width", "size", "dimension", "length"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le but du modèle flexbox en CSS?",
+      "options": ["Aligner et distribuer l'espace entre les éléments", "Ajouter des bordures aux éléments", "Changer les polices des éléments", "Définir les marges entre les éléments"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle méthode est utilisée pour supprimer un élément d'un tableau en JavaScript?",
+      "options": ["splice()", "remove()", "delete()", "pop()"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de l'attribut `placeholder` dans un champ de saisie HTML?",
+      "options": ["Afficher un texte d'exemple dans le champ", "Définir une valeur par défaut", "Ajouter une aide contextuelle", "Limiter le nombre de caractères"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour ajouter de l'espace entre les lignes de texte?",
+      "options": ["line-height", "spacing", "margin", "padding"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode correcte pour créer un objet en JavaScript?",
+      "options": ["let obj = {};","let obj = new Object();","let obj = Object.create();","let obj = (Object){};"],
+      "answer": 0
+    },
+    {
+      "question": "Comment ajouter un élément à un document HTML en JavaScript?",
+      "options": ["document.appendChild()", "document.createElement()", "document.addElement()", "document.insert()"],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le rôle de la balise <header> en HTML5?",
+      "options": ["Définir un en-tête pour un document ou une section", "Créer un pied de page", "Afficher un titre de niveau 1", "Ajouter un contenu principal"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la méthode pour convertir un tableau en chaîne de caractères en JavaScript?",
+      "options": ["join()", "toString()", "convert()", "stringify()"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour contrôler l'alignement du texte?",
+      "options": ["text-align", "text-position", "align", "justify"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle balise HTML est utilisée pour créer une ligne horizontale?",
+      "options": ["<line>", "<hr>", "<horizontal>", "<divider>"],
+      "answer": 1
+    },
+    {
+      "question": "Quel est le rôle de la méthode `querySelector()` en JavaScript?",
+      "options": ["Sélectionner le premier élément correspondant à un sélecteur", "Modifier le contenu d'un élément", "Ajouter un style à un élément", "Supprimer un élément"],
+      "answer": 0
+    }
+  ]
+  

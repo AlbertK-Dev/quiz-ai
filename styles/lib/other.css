@@ -1,0 +1,33 @@
+.other{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+   
+    .alert {
+            padding: 15px;
+            background-color: #f44336; /* Red background */
+            color: white; /* White text */
+            margin-bottom: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+          }
+          
+    .alert::before {
+            content: '🚨';
+            font-size: 24px;
+            margin-right: 10px;
+          }
+
+          .btn{
+            width: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: yellow;
+          }
+          
+    
+}

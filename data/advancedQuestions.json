@@ -1,0 +1,103 @@
+[
+    {
+      "question": "Quelle méthode JavaScript est utilisée pour convertir un objet JSON en chaîne de caractères?",
+      "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.toString()"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de l'attribut 'defer' dans une balise <script>?",
+      "options": ["Charge le script après le chargement de la page", "Charge le script de manière asynchrone", "Empêche le script de s'exécuter", "Charge le script en premier"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle méthode JavaScript est utilisée pour arrêter la propagation d'un événement?",
+      "options": ["stopPropagation()", "preventDefault()", "stopEvent()", "preventPropagation()"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le but du modèle MVC (Model-View-Controller)?",
+      "options": ["Séparer les données, la présentation et la logique", "Créer des animations CSS", "Gérer les événements JavaScript", "Structurer le HTML"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour créer un élément flexbox?",
+      "options": ["display: flex;", "flex-direction: column;", "flex: 1;", "align-items: center;"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la méthode `map()` en JavaScript?",
+      "options": ["Appliquer une fonction à chaque élément d'un tableau", "Filtrer les éléments d'un tableau", "Ajouter un élément à un tableau", "Supprimer un élément d'un tableau"],
+      "answer": 0
+    },
+    {
+      "question": "Comment déclarer une constante en JavaScript?",
+      "options": ["const myConstant = value;", "constant myConstant = value;", "let myConstant = value;", "var myConstant = value;"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour une fonction fléchée en JavaScript?",
+      "options": ["(param) => { return value; }", "param => { return value; }", "function => (param) { return value; }", "(param) { return value; }"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la balise <template> en HTML5?",
+      "options": ["Définir un modèle de contenu réutilisable", "Définir un style global", "Définir un script JavaScript", "Définir un lien vers une feuille de style"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour aligner les éléments dans un conteneur flexbox?",
+      "options": ["align-items", "align-content", "justify-content", "flex-align"],
+      "answer": 2
+    },
+    {
+      "question": "Quel est le rôle de la méthode `reduce()` en JavaScript?",
+      "options": ["Appliquer une fonction à chaque élément d'un tableau pour obtenir une valeur unique", "Filtrer les éléments d'un tableau", "Ajouter un élément à un tableau", "Supprimer un élément d'un tableau"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour utiliser des modules en JavaScript?",
+      "options": ["import myModule from 'myModule';", "require('myModule');", "include 'myModule';", "import 'myModule';"],
+      "answer": 0
+    },
+    {
+      "question": "Quel attribut HTML5 est utilisé pour spécifier un texte de remplacement pour une vidéo?",
+      "options": ["alt", "src", "poster", "sub"],
+      "answer": 2
+    },
+    {
+      "question": "Quel est le rôle de la méthode `fetch()` en JavaScript?",
+      "options": ["Récupérer des ressources réseau", "Analyser un objet JSON", "Exécuter une requête SQL", "Créer un serveur Web"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle propriété CSS est utilisée pour créer une grille CSS?",
+      "options": ["display: grid;", "grid-template-columns", "grid-template-rows", "grid"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la balise <picture> en HTML5?",
+      "options": ["Fournir des images alternatives pour des scénarios différents", "Définir une image", "Définir une légende pour une image", "Créer un lien vers une image"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour créer une fonction anonyme en JavaScript?",
+      "options": ["function() {}", "() => {}", "function {}", "() {}"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de la méthode `filter()` en JavaScript?",
+      "options": ["Créer un nouveau tableau avec tous les éléments qui passent le test implémenté par la fonction fournie", "Appliquer une fonction à chaque élément d'un tableau", "Ajouter un élément à un tableau", "Supprimer un élément d'un tableau"],
+      "answer": 0
+    },
+    {
+      "question": "Quel est le rôle de l'attribut `async` dans une balise <script>?",
+      "options": ["Exécuter le script de manière asynchrone", "Empêcher le script de s'exécuter", "Charger le script en premier", "Définir une variable globale"],
+      "answer": 0
+    },
+    {
+      "question": "Quelle est la syntaxe correcte pour une instruction `if` en JavaScript?",
+      "options": ["if (condition) {}", "if condition {}", "if: condition {}", "if: (condition) {}"],
+      "answer": 0
+    }
+  ]
+  
