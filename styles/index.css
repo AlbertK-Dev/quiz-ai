@@ -68,4 +68,7 @@ input[type="text"] {
         height: auto;
         width: auto;
     }
+    .main{
+        flex-direction: column;
+    }
 }

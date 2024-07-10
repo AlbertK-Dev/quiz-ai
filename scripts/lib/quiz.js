@@ -62,8 +62,8 @@ export function initQuiz(questions) {
     const totalAnswer = document.getElementById("totalAnswer")
     const badAnswer = document.getElementById("badAnswer")
     const correctAnswer = document.getElementById("correctAnswer")
-    totalAnswer.textContent = questions.length.toString()
-    
+    totalAnswer.textContent = (questions.length ).toString()
+    totalResponses.textContent = String(currentQuestionIndex + 1)
     
   
     function showQuestion(index) {
@@ -86,13 +86,20 @@ export function initQuiz(questions) {
     }
   
     function handleOptionClick(selectedIndex) {
-      const question = questions[currentQuestionIndex];
+        console.log(currentQuestionIndex)
+        console.log(questions.length)
+        const question = questions[currentQuestionIndex];
+        if (currentQuestionIndex === questions.length) {
+          
+            return
+          }
       if (selectedIndex === question.answer) {
           // Réponse correcte, passe à la question suivante
           const actual = +correctAnswer.textContent
+         
           correctAnswer.textContent = `${actual + 1}` 
-          const actualr = +totalResponses.textContent
-          totalResponses.textContent = `${actualr + 1}` 
+         
+          totalResponses.textContent = String(currentQuestionIndex + 1) 
         nextQuestion();
       } else {
         // Réponse incorrecte, affiche un message ou effectue une autre action
@@ -110,7 +117,8 @@ export function initQuiz(questions) {
   
     function nextQuestion() {
       if (currentQuestionIndex < questions.length - 1) {
-        currentQuestionIndex++;
+          currentQuestionIndex++;
+          totalResponses.textContent = String(currentQuestionIndex + 1)
         questionContainer.style.transform = 'translateX(-100%)';
         setTimeout(() => {
           questionContainer.style.transform = 'translateX(0)';
@@ -122,7 +130,7 @@ export function initQuiz(questions) {
     function restartQuiz() {
         badAnswer.textContent = '0'
         totalAnswer.textContent = '0'
-        totalResponses.textContent = '0'
+        totalResponses.textContent = String(currentQuestionIndex + 1)
         while (currentQuestionIndex > 0) {
             prevQuestion(500)
         }
@@ -130,7 +138,8 @@ export function initQuiz(questions) {
   
     function prevQuestion(time = 500) {
       if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
+          currentQuestionIndex--;
+          totalResponses.textContent = String(currentQuestionIndex + 1) 
         questionContainer.style.transform = 'translateX(100%)';
         setTimeout(() => {
           questionContainer.style.transform = 'translateX(0)';
