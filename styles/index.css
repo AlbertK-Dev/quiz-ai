@@ -67,6 +67,7 @@ input[type="text"] {
         padding: auto;
         height: auto;
         width: auto;
+        background: black
     }
     .main{
         flex-direction: column;
